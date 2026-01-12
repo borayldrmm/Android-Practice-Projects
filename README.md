@@ -17,16 +17,18 @@ A collection of Android applications built during my learning journey, demonstra
 ### 🌐 API Integration Practice
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
-| [CryptoWalletApp](#cryptowalletapp) | Cryptocurrency price tracker | Retrofit, Coroutines, RecyclerView |
+| [RetrofitKotlin](#retrofitkotlin) | Advanced cryptocurrency tracker with RxJava | Retrofit, RxJava3, RecyclerView, CompositeDisposable |
+| [CryptoWalletApp](#cryptowalletapp) | Cryptocurrency price tracker with Coroutines | Retrofit, Coroutines, RecyclerView |
 | [JokeApp](#jokeapp) | Random joke fetcher | Retrofit, JSON parsing, API integration |
 
 ### 📱 UI & Database Practice
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
+| [ArtbookNavFragment](#artbooknavfragment) | Art gallery with modern navigation (v2) | Navigation Component, Room, Fragments |
+| [ArtBookProject](#artbookproject) | Art gallery with classic approach (v1) | SQLite, Activity, RecyclerView |
 | [ShoppingList](#shoppinglist) | Shopping list with local storage | Room Database, MVVM, RecyclerView |
 | [TravelBook](#travelbook) | Location saving app with maps | Google Maps API, Room, SQLite |
 | [SuperheroBook](#superherobook) | Superhero database browser | Room, RecyclerView, CRUD operations |
-| [ArtbookNavFragment](#artbooknavfragment) | Art gallery with navigation | Navigation Component, Fragments, Room |
 
 ### 📸 Clone Projects
 | Project | Description | Tech Stack |
@@ -140,6 +142,24 @@ A collection of Android applications built during my learning journey, demonstra
 
 [📂 View Code](https://github.com/borayldrmm/myProjects/tree/main/JokeApp)
 
+
+---
+
+### RetrofitKotlin
+**Description:** Advanced cryptocurrency tracker using Retrofit with RxJava3 for reactive programming.
+
+**Key Features:**
+- Real-time crypto price fetching from CoinMarketCap API
+- RxJava3 for asynchronous operations
+- CompositeDisposable for subscription management
+- RecyclerView with crypto name, symbol, and USD price
+
+**Tech Stack:** Kotlin, Retrofit, RxJava3, CompositeDisposable, RecyclerView, API integration
+
+**Learning Focus:** Reactive programming with RxJava3, advanced Retrofit usage, subscription lifecycle management
+
+[📂 View Code](https://github.com/borayldrmm/Android-Practice-Projects/tree/main/RetrofitKotlin)
+
 ---
 
 ### CryptoWalletApp
@@ -176,20 +196,43 @@ A collection of Android applications built during my learning journey, demonstra
 
 ---
 
-### ArtbookNavFragment
-**Description:** Art gallery app demonstrating Navigation Component usage.
+### ArtBookProject (v1 - Classic Approach)
+**Description:** A travel art book application where users can save historical artifacts with images from their gallery.
 
 **Key Features:**
-- Multi-fragment navigation
-- Room database for art storage
-- Navigation Component
-- Safe Args for data passing
+- Gallery image selection with runtime permissions
+- Save artifact name, artist, and year
+- RecyclerView display in separate Activity
+- Local SQLite database for persistence
+- Multi-screen support
 
-**Tech Stack:** Kotlin, Navigation Component, Fragments, Room, Safe Args
+**Tech Stack:** Kotlin, SQLite, Activity-based architecture, RecyclerView, Runtime permissions
 
-**Learning Focus:** Jetpack Navigation, fragment transactions, data passing between screens
+**Learning Focus:** SQLite database operations, runtime permissions, Activity lifecycle, multi-screen apps
 
-[📂 View Code](https://github.com/borayldrmm/myProjects/tree/main/ArtbookNavFragment)
+**Note:** This project was later modernized as [ArtbookNavFragment](#artbooknavfragment) using Navigation Component and Room.
+
+[📂 View Code](https://github.com/borayldrmm/Android-Practice-Projects/tree/main/ArtBookProject)
+
+---
+
+### ArtbookNavFragment (v2 - Modern Approach)
+**Description:** Modernized version of ArtBookProject using Navigation Component and Room database.
+
+**Key Features:**
+- Multi-fragment navigation with Navigation Component
+- Room database instead of SQLite
+- Safe Args for type-safe data passing
+- Gallery image selection
+- Persistent art storage
+
+**Tech Stack:** Kotlin, Navigation Component, Room, Fragments, Safe Args, Runtime permissions
+
+**Learning Focus:** Jetpack Navigation, Room database migration from SQLite, fragment transactions, modern Android architecture
+
+**Evolution:** This is the modernized version of [ArtBookProject](#artbookproject), showcasing progression from Activity + SQLite to Fragments + Room.
+
+[📂 View Code](https://github.com/borayldrmm/Android-Practice-Projects/tree/main/ArtbookNavFragment)
 
 ---
 
@@ -213,10 +256,16 @@ A collection of Android applications built during my learning journey, demonstra
 
 These projects demonstrate progression through:
 1. **Basic UI & Kotlin** → CatchTheKenny, SimpleStopwatch
-2. **Database Integration** → TravelBook, SuperheroBook, ShoppingList
-3. **Networking & APIs** → JokeApp, CryptoWalletApp
-4. **Firebase Integration** → CloneInstagram
-5. **Architecture Patterns** → ShoppingList (MVVM), ArtbookNavFragment (Navigation)
+2. **Database Integration (Classic)** → ArtBookProject (SQLite + Activity)
+3. **Database Integration (Modern)** → ArtbookNavFragment (Room + Navigation), TravelBook, SuperheroBook, ShoppingList
+4. **Networking & APIs (Basic)** → JokeApp, CryptoWalletApp (Coroutines)
+5. **Networking & APIs (Advanced)** → RetrofitKotlin (RxJava3)
+6. **Firebase Integration** → CloneInstagram
+7. **Architecture Patterns** → ShoppingList (MVVM), ArtbookNavFragment (Navigation)
+
+**Key Evolution:**
+- ArtBookProject (v1) → ArtbookNavFragment (v2) showcases migration from legacy to modern Android development practices
+- CryptoWalletApp (Coroutines) → RetrofitKotlin (RxJava3) demonstrates different async programming approaches
 
 ---
 
