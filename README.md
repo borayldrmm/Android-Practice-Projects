@@ -70,7 +70,7 @@ A collection of Android applications built during my learning journey, demonstra
 
 **Learning Focus:** Android Handlers, UI manipulation, game loop basics
 
-[📂 View Code](./01-CatchTheKenny) | [📸 Screenshots](./01-CatchTheKenny/screenshots)
+[📂 View Code](https://github.com/borayldrmm/myProjects/tree/main/catchTheKenny)
 
 ---
 
@@ -87,7 +87,7 @@ A collection of Android applications built during my learning journey, demonstra
 
 **Learning Focus:** Google Maps SDK, location services, database integration
 
-[📂 View Code](./02-TravelBook) | [📸 Screenshots](./02-TravelBook/screenshots)
+[📂 View Code](https://github.com/borayldrmm/myProjects/tree/main/TravelBook)
 
 ---
 
@@ -104,7 +104,7 @@ A collection of Android applications built during my learning journey, demonstra
 
 **Learning Focus:** Room database operations, RecyclerView adapters, data persistence
 
-[📂 View Code](./03-SuperheroBook) | [📸 Screenshots](./03-SuperheroBook/screenshots)
+[📂 View Code](https://github.com/borayldrmm/myProjects/tree/main/SuperheroBook)
 
 ---
 
@@ -121,7 +121,7 @@ A collection of Android applications built during my learning journey, demonstra
 
 **Learning Focus:** MVVM architecture, Room database, reactive UI with LiveData
 
-[📂 View Code](./04-ShoppingList) | [📸 Screenshots](./04-ShoppingList/screenshots)
+[📂 View Code](https://github.com/borayldrmm/myProjects/tree/main/ShoppingList)
 
 ---
 
@@ -138,7 +138,7 @@ A collection of Android applications built during my learning journey, demonstra
 
 **Learning Focus:** REST API consumption, Retrofit setup, asynchronous programming
 
-[📂 View Code](./05-JokeApp) | [📸 Screenshots](./05-JokeApp/screenshots)
+[📂 View Code](https://github.com/borayldrmm/myProjects/tree/main/JokeApp)
 
 ---
 
@@ -155,7 +155,7 @@ A collection of Android applications built during my learning journey, demonstra
 
 **Learning Focus:** Network calls with Retrofit, Coroutines for async operations
 
-[📂 View Code](./06-CryptoWalletApp) | [📸 Screenshots](./06-CryptoWalletApp/screenshots)
+[📂 View Code](https://github.com/borayldrmm/myProjects/tree/main/CryptoWalletApp/CoroutineRetrofit)
 
 ---
 
@@ -172,7 +172,7 @@ A collection of Android applications built during my learning journey, demonstra
 
 **Learning Focus:** Firebase ecosystem integration, cloud storage, authentication flows
 
-[📂 View Code](./07-CloneInstagram) | [📸 Screenshots](./07-CloneInstagram/screenshots)
+[📂 View Code](https://github.com/borayldrmm/myProjects/tree/main/CloneInstagram)
 
 ---
 
@@ -189,7 +189,7 @@ A collection of Android applications built during my learning journey, demonstra
 
 **Learning Focus:** Jetpack Navigation, fragment transactions, data passing between screens
 
-[📂 View Code](./08-ArtbookNavFragment) | [📸 Screenshots](./08-ArtbookNavFragment/screenshots)
+[📂 View Code](https://github.com/borayldrmm/myProjects/tree/main/ArtbookNavFragment)
 
 ---
 
@@ -205,7 +205,7 @@ A collection of Android applications built during my learning journey, demonstra
 
 **Learning Focus:** Android Chronometer, UI component lifecycle
 
-[📂 View Code](./09-SimpleStopwatch) | [📸 Screenshots](./09-SimpleStopwatch/screenshots)
+[📂 View Code](https://github.com/borayldrmm/myProjects/tree/main/simpleStopwatch)
 
 ---
 
