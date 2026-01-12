@@ -2,7 +2,7 @@
 
 A collection of Android applications built during my learning journey, demonstrating various concepts, architectures, and technologies in Android development.
 
-> **Note:** These projects were created as part of my Android learning process. For production-ready work, please see my featured projects: [FoodieHub](link) and [BeautyDate](link).
+> **Note:** These projects were created as part of my Android learning process. For production-ready work, please see my featured projects: [FoodieHub](https://github.com/borayldrmm/FoodieHub) and [BeautyDate](https://github.com/borayldrmm/BeautyDate).
 
 ---
 
